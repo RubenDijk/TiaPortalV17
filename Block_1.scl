@@ -1,0 +1,26 @@
+﻿FUNCTION_BLOCK "Block_1"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      DI00 : Bool;
+      DI01 : Bool;
+      DI02 : Bool;
+      DI03 : Bool;
+   END_VAR
+
+   VAR_OUTPUT 
+      DO00 : Bool;
+      DO01 : Bool;
+      DO02 : Bool;
+      DO03 : Bool;
+   END_VAR
+
+   VAR_TEMP 
+      TEMP1 : Byte;
+      TEMP2 : Bool;
+   END_VAR
+
+
+BEGIN
+END_FUNCTION_BLOCK
+
